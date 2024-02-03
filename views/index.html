@@ -6,13 +6,35 @@
       <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
       <link href="/public/style.css" rel="stylesheet" type="text/css">
-      <link href="/package.json" >
    </head>
 
    <body>
       <div class="container">
          <h1>Manage Node.js projects and npm packages using package.json</h1>
          <h3>Part 1 of Free Code Camp Backend Challenges</h3>
+      </div>
+      <div>
+         <p>
+            {
+               "name": "fcc-learn-npm-package-json",
+               "author": "Jane Doe",
+               "description": "A project that does something awesome",
+               "dependencies": {
+                 "express": "^4.14.0"
+               },
+               "main": "server.js",
+               "scripts": {
+                 "start": "node server.js"
+               },
+               "engines": {
+                 "node": "8.11.2"
+               },
+               "repository": {
+                 "type": "git",
+                 "url": "https://idontknow/todo.git"
+               }
+             }
+         </p>
       </div>
    </body>
 
